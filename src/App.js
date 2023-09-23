@@ -5,6 +5,7 @@ import ButtonTab from './components/ButtonTab';
 import BookingTab from './components/BookingTab';
 import ChooseUs from './components/ChooseUs';
 import FooterTab from './components/FooterTab';
+import CardsCompo from './components/CardsCompo';
 import './App.css';
 
 function App() {
@@ -12,16 +13,7 @@ function App() {
     <div className='app-container'>
       <Navbar />
       <ContactForm />
-      <div className='logo-container'>
-        <div className='sub-logo-card'>
-          <img src='https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290685/Ellipse_16_n9boyg.svg' alt='nabllogo' width="50px" height="50px" className='limg' />
-          <p className='l-para'>NABL Accredited Labs</p>
-        </div>
-        <div className='sub-logo-card'>
-          <img src='https://res.cloudinary.com/gopi-enterprises/image/upload/v1695290682/Rectangle_81_xaz3gs.png' alt='nabllogo' width="50px" height="50px" className='limg' />
-          <p className='l-para'>NABL Accredited Labs</p>
-        </div>
-      </div>
+      <CardsCompo />
       <ButtonTab />
       <div className="ctrs2">
         <BookingTab  /> </div>
