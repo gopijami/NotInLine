@@ -34,8 +34,8 @@ const FooterTab = ()=>{
                 </ul>
                 <ul className='serv'>
                     <li><h2 className='h'>Talk to Us</h2></li>
-                    <li><a href='email:support@notinline.com'>support@notinline.com</a></li>
-                    <li><a href='email:appointment@notinline.com'>appointment@notinline.com</a></li>
+                    <li><a href='mailto:support@notinline.com'>support@notinline.com</a></li>
+                    <li><a href='mailto:appointment@notinline.com'>appointment@notinline.com</a></li>
                     <li><a href='tel:+91-1234567899'>+91 1234567899</a></li>
                     <li><a href='tel:+91-9764209752'>+91 9764209752</a></li>
                 </ul></div>
